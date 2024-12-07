@@ -1,0 +1,73 @@
+{
+  "goodbye": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 3
+    }
+  },
+  "ask_architecture": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "deny": 4
+    }
+  },
+  "request_info": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 3
+    }
+  },
+  "greet": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 3
+    }
+  },
+  "deny": {
+    "precision": 0.15789473684210525,
+    "recall": 1.0,
+    "f1-score": 0.2727272727272727,
+    "support": 3,
+    "confused_with": {}
+  },
+  "affirm": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "deny": 3
+    }
+  },
+  "accuracy": 0.15789473684210525,
+  "macro avg": {
+    "precision": 0.02631578947368421,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.04545454545454545,
+    "support": 19
+  },
+  "weighted avg": {
+    "precision": 0.02493074792243767,
+    "recall": 0.15789473684210525,
+    "f1-score": 0.043062200956937795,
+    "support": 19
+  },
+  "micro avg": {
+    "precision": 0.15789473684210525,
+    "recall": 0.15789473684210525,
+    "f1-score": 0.15789473684210525,
+    "support": 19
+  }
+}

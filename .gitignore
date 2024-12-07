@@ -330,3 +330,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,jetbrains+all,visualstudiocode,macos,windows
+
+rasa_env/
+node_modules/
+.rasa/
+models/

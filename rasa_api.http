@@ -1,0 +1,31 @@
+@hostname=127.0.0.1
+@port=5005
+@host={{hostname}}:{{port}}
+
+
+GET http://{{host}}/
+GET http://{{host}}/domain
+
+
+POST http://{{host}}/webhooks/rest/webhook
+Accept: application/json
+content-type: application/json
+charset: UTF-8
+
+{
+    "sender": "PractikumStudent",
+    "message": "Привет"
+}
+
+# Debugging
+POST http://{{host}}/model/parse
+Content-Type: application/json
+
+{
+    "text": "Привет!"
+}
+
+POST http://{{host}}/conversations/default/execute?include_events=AFTER_RESTART
+Content-Type: application/json
+
+{"name":"utter_greet"}
