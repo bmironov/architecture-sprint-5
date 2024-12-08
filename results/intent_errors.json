@@ -1,0 +1,130 @@
+[
+  {
+    "text": "Привет",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3992803990840912
+    }
+  },
+  {
+    "text": "Здравствуйте",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.37554919719696045
+    }
+  },
+  {
+    "text": "Добрый день",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.25791552662849426
+    }
+  },
+  {
+    "text": "До свидания",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3082762062549591
+    }
+  },
+  {
+    "text": "Пока",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4245608448982239
+    }
+  },
+  {
+    "text": "Увидимся",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3821451961994171
+    }
+  },
+  {
+    "text": "Расскажите об архитектуре ПО",
+    "intent": "ask_architecture",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.37454280257225037
+    }
+  },
+  {
+    "text": "Какие подходы существуют в архитектуре?",
+    "intent": "ask_architecture",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3115576207637787
+    }
+  },
+  {
+    "text": "Что такое микросервисная архитектура?",
+    "intent": "ask_architecture",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.23671898245811462
+    }
+  },
+  {
+    "text": "Как выбрать архитектуру ПО?",
+    "intent": "ask_architecture",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3324815332889557
+    }
+  },
+  {
+    "text": "Да",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.40275946259498596
+    }
+  },
+  {
+    "text": "Верно",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.39630740880966187
+    }
+  },
+  {
+    "text": "Именно",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3747618496417999
+    }
+  },
+  {
+    "text": "Расскажите больше об этом",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.32559067010879517
+    }
+  },
+  {
+    "text": "Можете уточнить?",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.31895163655281067
+    }
+  },
+  {
+    "text": "Какие есть детали?",
+    "intent": "request_info",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.25480732321739197
+    }
+  }
+]
